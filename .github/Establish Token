@@ -1,0 +1,30 @@
+"use strict"
+
+//var network = "wss://testnet.xrpl-labs.com"; // altnet XRPL Labs
+var network = "wss://s.altnet.rippletest.net:51233";
+
+var faucet = "https://faucet.altnet.rippletest.net/accounts"; // altnet
+
+var issuer = {"public_address": "r3aPNvRH2K18DwwBD5wPLLLix1WT1eNHJ2","private_seed": "sEd72QNWbbp92EXGVn8Srr5CGJKpuJT"};
+
+var operations = {"public_address": "r31QU817EHSB4S9QFv7tvr7upM9e1ZQDuK","private_seed": "sEd7HwyBF9iVQ9FEjhCGEywRbV3817G"};
+
+var primary_currency = "AUD";
+
+var currency_issuers = {
+    "AUD": {"public_address": "rMpz1pA3ZQn4mzCcw8DQziBmTdZ2TkhGBF","private_seed": "sEdTuxprDyKGmVL3Mdt4X8WG97i6gqV"}
+};
+
+var investors = {
+    "User 1": {"public_address":"rGdwo3CU5NdSF1TXZBpuU97fBtrbUu7nJG","private_seed":"sEdVFNsYEYRuzrUdUY2f5rbr9nRB7Ui"}
+    , "User 2": {"public_address":"rGtKWqiwXoxybMTd2QJ61cFDqb8rpxbgXR","private_seed":"sEd7h2qAp3EkjnyJwu7yZuci84Ja2We"}
+// ADD NEW INVESTOR DETAILS ABOVE THIS LINE
+};
+
+export {network, faucet, issuer, operations, primary_currency, currency_issuers, investors} 
+{
+    "ReturnTarget": "0.06",
+    "CouponFreq": "Monthly",
+    "Maturity": "31/12/2030",
+    "param4": "value44xxxx"
+}
